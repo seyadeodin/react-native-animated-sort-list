@@ -8,7 +8,6 @@ import data from './data.json';
 import { Text, View } from 'react-native';
 import { MovableCard } from './src/components/MovableCard';
 import { CARD_HEIGHT } from './src/components/Card';
-import { RectButton } from 'react-native-gesture-handler';
 
 export type TaskData = {
   id: number;
